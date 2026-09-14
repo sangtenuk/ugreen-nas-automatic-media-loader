@@ -79,7 +79,6 @@ async function nasBeep(type = 'short') {
 
 // ============================================================
 // MARIO SOUND
-// KEKAL DARI SCRIPT ASAL
 // ============================================================
 
 async function nasBeep(type = 'short') {
