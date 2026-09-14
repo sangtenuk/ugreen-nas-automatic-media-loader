@@ -21,6 +21,7 @@ mkdir -p "$BACKUP_DIR"
 
 echo "3. Copying files..."
 cp sd-card-monitor.js "$INSTALL_DIR/"
+cp config.json "$INSTALL_DIR/"
 chmod +x "$INSTALL_DIR/sd-card-monitor.js"
 
 echo "4. Creating log file..."
