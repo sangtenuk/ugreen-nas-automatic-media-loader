@@ -8,6 +8,22 @@
   
 ## IMPORTANT
 - create a <b>temporary</b> folder in <b>UGreen NAS Shared Folder</b>, and it will save under /volume1/temporary/[date-folders]
+or customize config.json files.
+```bash
+{
+  "checkInterval": 5000, 
+  "searchPaths": ["/mnt"],
+  "destinationBase": "/volume1/temporary",
+  "logFile": "/var/log/sd-card-transfer.log",
+  "extensions": [
+    "mp4", "mov", "mxf",
+    "jpg", "jpeg", "png",
+    "arw", "cr2", "cr3", "dng",
+    "wav", "mp3", "m4a", "aac", "ogg", "flac"
+  ]
+}
+```
+
 ---
 
 ## Installation
