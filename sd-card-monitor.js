@@ -46,7 +46,6 @@ const CONFIG = {
 let transferBeepInterval = null;
 
 
-/*
 async function nasBeep(type = 'short') {
   try {
     if (type === 'detect') {
@@ -74,13 +73,13 @@ async function nasBeep(type = 'short') {
     }
   } catch (err) {}
 }
-*/
+
 
 
 // ============================================================
 // MARIO SOUND
 // ============================================================
-
+/*
 async function nasBeep(type = 'short') {
   try {
 
@@ -215,8 +214,7 @@ async function nasBeep(type = 'short') {
   }
 }
 
-
-/* */
+*/
 
 
 // ============================================================
