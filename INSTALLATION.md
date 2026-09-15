@@ -7,6 +7,7 @@
 - Root access for installation
   
 ## IMPORTANT
+- place all the file ni nas storage (eg: volume1/docker/)
 - create a <b>temporary</b> folder in <b>UGreen NAS Shared Folder</b>, and it will save under /volume1/temporary/[date-folders]
 or customize config.json files.
 ```bash
